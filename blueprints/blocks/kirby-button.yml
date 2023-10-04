@@ -1,0 +1,60 @@
+title: pixelopen.kirby_button.block.title
+icon: url
+
+fields:
+  class:
+    type: text
+    label: Class
+    width: 1/2
+  id:
+    type: text
+    label: ID
+    width: 1/2
+  name:
+    type: text
+    label: pixelopen.kirby_button.block.name
+    width: 1/2
+  alignment:
+    label: pixelopen.kirby_button.block.align
+    width: 1/2
+    required: true
+    default: center
+    type: select
+    options:
+      left:
+        en: Left
+        fr: Gauche
+      center:
+        en: Center
+        fr: Milieu
+      right:
+        en: Right
+        fr: Droite
+  link:
+    type: link
+    label: pixelopen.kirby_button.block.link
+    required: true
+    options:
+      - url
+      - page
+      - file
+  bg-color:
+    label: pixelopen.kirby_button.block.bg_color
+    width: 1/3
+    required: true
+    type: color
+    extends: fields/color
+  newTab:
+    type: toggle
+    label: pixelopen.kirby_button.block.newTab
+    width: 1/3
+    text:
+      - pixelopen.kirby_button.no
+      - pixelopen.kirby_button.yes
+  download:
+    type: toggle
+    label: pixelopen.kirby_button.block.download
+    width: 1/3
+    text:
+      - pixelopen.kirby_button.no
+      - pixelopen.kirby_button.yes

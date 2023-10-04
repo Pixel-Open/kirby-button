@@ -1,0 +1,26 @@
+{
+    "name": "pixelopen/kirby-button",
+    "version": "1.0.0",
+    "type": "kirby-plugin",
+    "description": "A plugin for Kirby 3 CMS to add backend button block",
+    "homepage": "https://github.com/Pixel-Developpement/kirby-dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hugo Mercat",
+            "email": "hugo.mercat@epita.fr"
+        }
+    ],
+    "keywords": [
+        "kirby3",
+        "kirby3-cms",
+        "kirby3-plugin"
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1",
+        "getkirby/cms": "^4.0.0"
+    },
+    "extra": {
+        "installer-name": "kirby-button"
+    }
+}
