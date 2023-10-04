@@ -12,7 +12,7 @@ This plugin is free
 
 ### Download
 
-[Download the files](https://github.com/Pixel-Open/kirby-button/releases/tag/1.0.0.zip) and place them inside `site/plugins/kirby-button`.
+[Download the files](hhttps://github.com/Pixel-Open/kirby-button/releases) and place them inside `site/plugins/kirby-button`.
 
 ### Composer
 

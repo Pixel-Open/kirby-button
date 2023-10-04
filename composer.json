@@ -7,20 +7,28 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Hugo Mercat",
-            "email": "hugo.mercat@epita.fr"
+            "name": "Pixel Open",
+            "homepage": "https://pixel-open.org/"
         }
     ],
     "keywords": [
-        "kirby3",
-        "kirby3-cms",
-        "kirby3-plugin"
+        "kirby",
+        "kirby-cms",
+        "kirby-plugin"
     ],
     "require": {
-        "getkirby/composer-installer": "^1.1",
-        "getkirby/cms": "^4.0.0"
+        "getkirby/composer-installer": "^1.2",
+        "getkirby/cms": "^4.0.0-beta.2"
     },
     "extra": {
         "installer-name": "kirby-button"
+    },
+    "config": {
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    },
+    "require-dev": {
+        "symplify/easy-coding-standard": "^12.0"
     }
 }
