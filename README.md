@@ -1,5 +1,9 @@
 # Kirby Button plugin
 
+![GitHub release (with filter)](https://img.shields.io/github/v/release/Pixel-Open/kirby-button?style=for-the-badge)
+
+[![Dependency](https://img.shields.io/badge/kirby-4.x-cca000.svg?style=for-the-badge)](https://getkirby.com/)
+
 A plugin for [Kirby CMS](http://getkirby.com) to add a button block to redirect to a page, a website or a downloadable file.
 
 This plugin take a lot of inspiration on this plugin: https://github.com/pReya/kirby-link-button-block but add new features from Kirby 4.
