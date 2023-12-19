@@ -77,7 +77,7 @@ return [
 ];
 ```
 
-The button work with color field from Kirby 4, you can create a new fields with your custom colors at `/site/blueprints/fields/color.yml`:
+The button work with color field from Kirby 4, you must create a new fields with your custom colors at `/site/blueprints/fields/color.yml`:
 
 ```yml
 type: color

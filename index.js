@@ -1,13 +1,1 @@
-panel.plugin("pixelopen/kirby-button", {
-    blocks: {
-        "kirby-button": {
-            template: `
-                <div class="button-container">
-                  <a class="button-link" @click="open">
-                    <div class="button-content">{{ content.name }}</div>
-                  </a>
-                </div>
-              `,
-        },
-    },
-});
+(function(){"use strict";function c(r,t,s,C,i,a,_,b){var n=typeof r=="function"?r.options:r;t&&(n.render=t,n.staticRenderFns=s,n._compiled=!0),C&&(n.functional=!0),a&&(n._scopeId="data-v-"+a);var o;if(_?(o=function(e){e=e||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext,!e&&typeof __VUE_SSR_CONTEXT__<"u"&&(e=__VUE_SSR_CONTEXT__),i&&i.call(this,e),e&&e._registeredComponents&&e._registeredComponents.add(_)},n._ssrRegister=o):i&&(o=b?function(){i.call(this,(n.functional?this.parent:this).$root.$options.shadowRoot)}:i),o)if(n.functional){n._injectStyles=o;var m=n.render;n.render=function($,f){return o.call(f),m($,f)}}else{var l=n.beforeCreate;n.beforeCreate=l?[].concat(l,o):[o]}return{exports:r,options:n}}const u={};var d=function(){var t=this,s=t._self._c;return t._self._setupProxy,s("div",{staticClass:"button-container"},[s("a",{staticClass:"button-link",style:{background:`${t.content.bg_color}`},on:{click:t.open}},[s("p",{staticClass:"button-content",style:{color:`${t.content.text_color}`}},[t._v(t._s(t.content.name))])])])},p=[],v=c(u,d,p,!1,null,null,null,null);const h=v.exports;panel.plugin("pixelopen/kirby-button",{blocks:{button:h}})})();

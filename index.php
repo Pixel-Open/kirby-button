@@ -2,10 +2,10 @@
 
 Kirby::plugin('pixelopen/kirby-button', [
     'snippets' => [
-        'blocks/kirby-button' => __DIR__ . '/snippets/blocks/kirby-button.php',
+        'blocks/button' => __DIR__ . '/snippets/blocks/button.php',
     ],
     'blueprints' => [
-        'blocks/kirby-button' => __DIR__ . '/blueprints/blocks/kirby-button.yml',
+        'blocks/button' => __DIR__ . '/blueprints/blocks/button.yml',
     ],
     'translations' => [
         'de' => require __DIR__ . '/translations/en.php',

@@ -7,6 +7,7 @@ return [
     'pixelopen.kirby_button.block.link' => 'Destination',
     'pixelopen.kirby_button.block.newTab' => 'Open in a new tab?',
     'pixelopen.kirby_button.block.bg_color' => 'Button color',
+    'pixelopen.kirby_button.block.text_color' => 'Text color',
     'pixelopen.kirby_button.block.align' => 'Alignment',
 
     'pixelopen.kirby_button.no' => 'No',
