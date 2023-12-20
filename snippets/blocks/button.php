@@ -5,11 +5,11 @@
     return str_replace(' ', '-', strtolower($colorName));
 } ?>
 
-<div class="kirby_btn<?= $block->class()->isEmpty() ? "" : " " . $block->class()->esc() ?>"
+<div class="pixel_button<?= $block->class()->isEmpty() ? "" : " " . $block->class()->esc() ?>"
      <?= $block->content()->get('id')->isEmpty() ? "" : "id=\"{$block->content()->get('id')->esc()}\"" ?>
      align="<?= $block->alignment() ?>"
 >
-    <a class="kirby_btn__link bg-<?= getColorName($block->bg_color())?> text-<?= getColorName($block->text_color()) ?>"
+    <a class="pixel_button__link bg-<?= getColorName($block->bg_color())?> text-<?= getColorName($block->text_color()) ?>"
        href="<?= $block->link()->toUrl() ?>"
        <?= ($block->download()->toBool() && str_contains($block->link(), "file://")) ? "download" : "" ?>
        target="<?= $block->newTab()->toBool() ? "_blank" : "_self" ?>"
